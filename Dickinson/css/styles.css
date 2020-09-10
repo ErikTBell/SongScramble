@@ -1,0 +1,105 @@
+
+/* Examples Section */
+
+#intro {
+  background-color: #7fdbda;
+}
+#calltoAction{
+  background-color: #ede682;
+}
+#randomizer{
+    background-color: #ade498;
+}
+
+#sendLink{
+    background-color: #7fdbda;
+  }
+  #staticExamples{
+    background-color: #ede682;
+    color: black;
+      padding-bottom: 3%;
+  }
+
+#examples {
+
+  background-color: #ede682;
+  color: #fff;
+}
+.example-image{
+  width: 40%;
+  border-radius: 90%;
+  margin: 10px;
+}
+.splash-image{
+width:300px;
+margin:10%;
+border-radius:30%;
+}
+.random1-image{
+  width:250px;
+  margin:10%;
+  border-radius:30%;
+}
+.random2-image{
+  width:250px;
+  margin:10%;
+  border-radius:30%;
+  }
+h1{
+  font-family: 'Manrope', sans-serif;
+  color:#fff;
+  margin-left:20px;
+}
+h4{
+  font-family: 'Dancing Script', cursive;
+  line-height: 1.5;
+  margin-left:20px;
+
+}
+h5{
+  font-family: 'Manrope', sans-serif;
+  line-height:1;
+  margin-right:20px;
+}
+.powButton{
+padding:10%;
+position:relative;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #5c2a9d 9px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+/* .testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+} */
+.container-fluid {
+  padding: 10% 10%;
+}
