@@ -7,7 +7,7 @@ var rockSongs = ["'Another One Bites the Dust'|another_one","'Piano Man'|piano_m
 
 var folkSongs = ["'Yellow Rose of Texas'|yellow_rose","'Amazing Grace'|amazing","'Gilligan's Island'|gilligans",
 "'America the Beautiful'|america","'Supercalifragilistic'|supercali","'I'd Like to Teach the World to Sing'|teach_world",
-"'Marine Corps Hymn'|marine_corp","'Yankee Doodle'|yankee","'Oh Susannah'|oh_susanna","'Greensleeves'|greensleeves",
+"'Marines Hymn'|marine_corp","'Yankee Doodle'|yankee","'Oh Susannah'|oh_susanna","'Greensleeves'|greensleeves",
 "'I've Been Working on the Railroad'|working","'Beverly Hillbillies'|beverly","'Love Me Tender'|love_me",
 "'Clementine'|clementine","'The Ship Titanic'|titanic"];
 
@@ -58,9 +58,9 @@ $(".gogoGadget").click(function(){
   var picture2 = parseMe2[1];
     var thispic1 = "images/" + picture1 + ".png";
       var thispic2 = "images/" + picture2 + ".png";
-  $(".random1-text").text("Your First song is" + songTitle1);
+  $(".random1-text").text("Your 1st song is" + songTitle1);
 $(".random1-image").attr("src",thispic2);
-  $(".random2-text").text("Your Second song is" + songTitle2);
+  $(".random2-text").text("Your 2nd song is" + songTitle2);
   $(".random2-image").attr("src",thispic1);
   // alert("Yes it works");
 });
