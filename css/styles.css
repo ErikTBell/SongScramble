@@ -6,6 +6,7 @@
 }
 #calltoAction{
   background-color: #ede682;
+
 }
 #randomizer{
     background-color: #ade498;
@@ -35,15 +36,13 @@ width:300px;
 margin:10%;
 border-radius:30%;
 }
-.random1-image{
+.random1-image, .random2-image{
   width:250px;
   margin:10%;
   border-radius:30%;
 }
-.random2-image{
-  width:250px;
-  margin:10%;
-  border-radius:30%;
+.random1-text, .random2-text{
+    font-size:3.5rem;
   }
 h1{
   font-family: 'Manrope', sans-serif;
@@ -54,12 +53,14 @@ h4{
   font-family: 'Dancing Script', cursive;
   line-height: 1.5;
   margin-left:20px;
+  font-size:2rem;
 
 }
 h5{
   font-family: 'Manrope', sans-serif;
   line-height:1;
   margin-right:20px;
+  font-size=2rem;
 }
 .powButton{
 padding:10%;
