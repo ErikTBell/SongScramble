@@ -36,6 +36,13 @@ width:300px;
 margin:10%;
 border-radius:30%;
 }
+.music-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
 .random1-image, .random2-image{
   width:250px;
   margin:10%;
